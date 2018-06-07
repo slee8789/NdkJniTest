@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JniTestActivity">
+
+    <Button
+        android:id="@+id/btnJniReqVoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNI REQ VOID RES VOID"/>
+
+    <Button
+        android:id="@+id/btnJniReqIntReturnInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNI REQ INT RES INT"/>
+
+    <Button
+        android:id="@+id/btnJniCallBackStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNI CallBack Start"/>
+
+    <Button
+        android:id="@+id/btnJniCallBackStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="JNI CallBack Stop"/>
+
+
+</LinearLayout>
